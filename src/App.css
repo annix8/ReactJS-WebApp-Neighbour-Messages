@@ -1,0 +1,40 @@
+#infoBox, #errorBox, #loadingBox {
+  width: 80%;
+  margin: 10px auto;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  border-radius: 3px;
+  display: none;
+  cursor: pointer;
+}
+
+#loadingBox {
+  background: rgb(6,94,225);
+}
+#infoBox {
+  background: rgb(0, 145, 0);
+}
+#errorBox {
+  background: rgb(248,67,35);
+}
+
+#main {
+  margin: 0 10px 20px 10px;
+}
+
+table{
+  margin: 0 auto;
+  padding: 10px;
+}
+
+
+table th {
+  background: #DDD;
+  padding: 10px;
+}
+
+table td {
+  padding: 5px 10px;
+  background: #EEE;
+}

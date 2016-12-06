@@ -1,0 +1,27 @@
+.navigation-bar {
+    font-family: 'Lato', sans-serif;
+    background: #333333;
+    text-align: center;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.navigation-bar a {
+    color:white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.navigation-bar a:hover {
+    background: #BBB;
+}
+
+.navigation-bar .loggedInUser {
+    float: right;
+    margin-right: 10px;
+}
+
+.loggedInUser {
+    color: white;
+}
